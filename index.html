@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devagya Raman | Geotechnical Engineer</title>
+  <style>
+    :root {
+      --bg-color: #f9f9f9;
+      --text-color: #333;
+      --link-color: #0077cc;
+    }
+    body.dark-mode {
+      --bg-color: #121212;
+      --text-color: #eee;
+      --link-color: #3399ff;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    header, footer {
+      background-color: #fff;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    body.dark-mode header,
+    body.dark-mode footer {
+      background-color: #1e1e1e;
+      border-bottom: 1px solid #333;
+    }
+    h1, h2 {
+      margin-bottom: 0.5rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    a {
+      color: var(--link-color);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: var(--link-color);
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .btn:hover {
+      opacity: 0.9;
+    }
+    .toggle-mode {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      cursor: pointer;
+      background: none;
+      border: 1px solid var(--text-color);
+      padding: 0.3rem 0.7rem;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle-mode" onclick="toggleMode()">Toggle Mode</button>
+  <header>
+    <h1>Devagya Raman</h1>
+    <p>Research Scholar (CSIR-CBRI) | Geotechnical Engineer</p>
+    <p><a href="mailto:devagyaraman2010@gmail.com">devagyaraman2010@gmail.com</a> | <a href="https://www.linkedin.com/in/devagya-raman" target="_blank">LinkedIn</a></p>
+    <a class="btn" href="DEVAGYA_RAMAN_CV_2025.pdf" download>Download Resume (PDF)</a>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>About</h2>
+      <p>Dedicated Geotechnical Engineer pursuing a Ph.D. in 3D numerical modeling of Mechanically Stabilized Earth (MSE) walls. Experienced in site investigations, soil stabilization, seismic response analysis, and erosion control for infrastructure projects.</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>AAI Sikkim RESA – MSE wall and rotary design (up to 103m high walls)</li>
+        <li>Omkareshwar Statue Site – Ground response analysis, PGA evaluation using MASW</li>
+        <li>Soil erosion mitigation for DRDO across 7 defense sites</li>
+        <li>Geotechnical investigations for NHSRCL bullet train corridor</li>
+        <li>Landslide hazard mapping (3000+ landslides) for NE region</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Publications</h2>
+      <ul>
+        <li>"Optimizing the Strength of Expansive Soil with Jute Fiber Reinforcement" – Journal of Engineering Geology (2024)</li>
+        <li>"Seismic site characterization and SPT(N) to Vs correlation of Noida" – Scientific Reports, Nature (2025)</li>
+        <li>WCDM 2023 – Ground response analysis at Statue of Oneness site</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Software Skills</h2>
+      <ul>
+        <li>Plaxis 2D/3D, Slide, AutoCAD</li>
+        <li><strong>DeepSoil</strong>, <strong>GIS</strong>, Primavera, Stadd Pro</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Achievements</h2>
+      <ul>
+        <li>2nd Prize – Poster Presentation at EGCON Kolkata, 2022</li>
+        <li>National Rowing Player, team captain (Uttarakhand)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Blog</h2>
+      <p>Coming soon: updates on my research, fieldwork, and thoughts on geotechnical engineering and sustainability.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:devagyaraman2010@gmail.com">devagyaraman2010@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/devagya-raman" target="_blank">linkedin.com/in/devagya-raman</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Devagya Raman. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>
